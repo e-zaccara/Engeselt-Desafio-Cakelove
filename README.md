@@ -1,11 +1,11 @@
-## Engeselt Desafio | Marketplace Confeitaria
-# Projeto: Cakelove
+# Engeselt Desafio | Marketplace Confeitaria
+## Projeto: Cakelove
 
 Aplicação em execução:
 link do vídeo: https://youtu.be/pxB-oj5bZrw
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pxB-oj5bZrw?si=tT_dEHIz7vOeFuO9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Veja o vídeo](https://img.youtube.com/vi/pxB-oj5bZrw/maxresdefault.jpg)](https://youtu.be/pxB-oj5bZrw)
 
-# Especificações Técnicas
+## Especificações Técnicas
 Laravel (v12.0.7)
 Laravel/ui (v4.6.1)
 PHP (8.2.4)
@@ -13,7 +13,7 @@ PostgreSQL (17.4)
 Vue.JS (3.5.13)
 Leaflet.JS (1.9.4) - Carregado localmente
 
-# Como rodar a aplicação
+## Como rodar a aplicação
 1° Clone o repositório
 2° Crie um banco de dados no pgAdmin4 com nome "bd_cakelove"
 3° Importe o banco de dados que está na pasta "BANCODEDADOS" para "bd_cakelove"
@@ -21,10 +21,10 @@ Leaflet.JS (1.9.4) - Carregado localmente
 4° Abra a aplicação em um servidor local
     OBS: No processo de criação foi utilizado XAMPP->Apache
 
-# Estrutura da aplicação (DADOS)
+## Estrutura da aplicação (DADOS)
 Utilização do PostgreSQL para servir como banco de dados. Os dados foram tratados utilizando o Eloquent ORM do laravel para mapear as tabelas do banco em modelos, o que facilitou para criação de controladores permitindo realizar operações, tais como, create, show, update, destroy (CRUD). E a visualização dos dados via renderização dos componentes vue.
 
-# Considerações
+## Considerações
 Gostaria de me desculpar por não conseguir atender a todos os requisitos solicitados, especialmente em relação ao uso do Inertia.js. Eu não conhecia essa tecnologia anteriormente, mas me esforcei para estudá-la e tentei aplicá-la ao projeto enquanto aprendia. Infelizmente, não consegui implementá-la, mas pretendo continuar estudando e evoluindo nesse ponto.
 Também peço desculpas pela falta de commits frequentes. Concentrei meus esforços nas etapas de desenvolvimento e estudo para entregar o melhor resultado possível, o que acabou impactando um pouco a frequência dos registros no repositório.
 
