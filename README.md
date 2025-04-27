@@ -1,65 +1,33 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Engeselt Desafio | Marketplace Confeitaria
+## Projeto: Cakelove
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplicação em execução:
+link do vídeo: https://youtu.be/pxB-oj5bZrw
+<a href="https://youtu.be/pxB-oj5bZrw">
+  <img src="https://img.youtube.com/vi/pxB-oj5bZrw/maxresdefault.jpg" width="400" />
+</a>
 
-## About Laravel
+## Especificações Técnicas
+Laravel (v12.0.7)<br>
+Laravel/ui (v4.6.1)<br>
+PHP (8.2.4)<br>
+PostgreSQL (17.4)<br>
+Vue.JS (3.5.13)<br>
+Leaflet.JS (1.9.4) - Carregado localmente
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Como rodar a aplicação
+1° Clone o repositório<br>
+2° Crie um banco de dados no pgAdmin4 com nome "bd_cakelove"<br>
+3° Importe o banco de dados que está na pasta "BANCODEDADOS" para "bd_cakelove"<br>
+    OBS: Os dois arquivos são o mesmo banco, um como "directory" e o outro como "plain"<br>
+4° Abra a aplicação em um servidor local<br>
+    OBS: No processo de criação foi utilizado XAMPP->Apache
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Estrutura da aplicação (DADOS)
+Utilização do PostgreSQL para servir como banco de dados. Os dados foram tratados utilizando o Eloquent ORM do laravel para mapear as tabelas do banco em modelos, o que facilitou para criação de controladores permitindo realizar operações, tais como, create, show, update, destroy (CRUD). E a visualização dos dados via renderização dos componentes vue.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Considerações
+Gostaria de me desculpar por não conseguir atender a todos os requisitos solicitados, especialmente em relação ao uso do Inertia.js. Eu não conhecia essa tecnologia anteriormente, mas me esforcei para estudá-la e tentei aplicá-la ao projeto enquanto aprendia. Infelizmente, não consegui implementá-la, mas pretendo continuar estudando e evoluindo nesse ponto.
+Também peço desculpas pela falta de commits frequentes. Concentrei meus esforços nas etapas de desenvolvimento e estudo para entregar o melhor resultado possível, o que acabou impactando um pouco a frequência dos registros no repositório.
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# Engeselt-Desafio-Cakelove
->>>>>>> 308b78483880eb1708a07c2c7431b27916223ae5
+Agradeço pela compreensão e pela oportunidade de aprendizado!
