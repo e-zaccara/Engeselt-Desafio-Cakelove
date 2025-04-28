@@ -18,7 +18,7 @@ Leaflet.JS (1.9.4) - Carregado localmente
 ## Como rodar a aplicação
 1° Clone o repositório<br>
     Utilizando xampp cria uma pasta dentro de "htdocs" e clone o repositório<br>
-2° Crie um banco de dados no pgAdmin4 com nome "bd_cakelove"<br>
+2° Crie um banco de dados no pgAdmin4 com nome "db_cakelove"<br>
 3° Importe o banco de dados que está na pasta "BANCODEDADOS" para "db_cakelove"<br>
     OBS: Os dois arquivos são o mesmo banco, um como "directory" e o outro como "plain"<br>
 4° Abra a aplicação no servidor local (XAMPP->Apache)<br>
