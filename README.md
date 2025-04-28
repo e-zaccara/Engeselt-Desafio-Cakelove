@@ -20,8 +20,9 @@ Leaflet.JS (1.9.4) - Carregado localmente
 2° Crie um banco de dados no pgAdmin4 com nome "bd_cakelove"<br>
 3° Importe o banco de dados que está na pasta "BANCODEDADOS" para "bd_cakelove"<br>
     OBS: Os dois arquivos são o mesmo banco, um como "directory" e o outro como "plain"<br>
-4° Abra a aplicação em um servidor local<br>
-    OBS: No processo de criação foi utilizado XAMPP->Apache
+4° Abra a aplicação em um servidor local (XAMPP)<br>
+    No processo de criação foi utilizado XAMPP->Apache<br>
+    http://127.0.0.1:8080/cakelove/public/
 
 ## Estrutura da aplicação (DADOS)
 Utilização do PostgreSQL para servir como banco de dados. Os dados foram tratados utilizando o Eloquent ORM do laravel para mapear as tabelas do banco em modelos, o que facilitou para criação de controladores permitindo realizar operações, tais como, create, show, update, destroy (CRUD). E a visualização dos dados via renderização dos componentes vue.
