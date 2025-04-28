@@ -16,6 +16,7 @@ Vue.JS (3.5.13)<br>
 Leaflet.JS (1.9.4) - Carregado localmente
 
 ## Como rodar a aplicação
+Vídeo rodando a aplicação: https://youtu.be/sXlvsnOpRRc<br>
 1° Clone o repositório<br>
     Utilizando xampp cria uma pasta dentro de "htdocs" e clone o repositório<br>
 2° Crie um banco de dados no pgAdmin4 com nome "db_cakelove"<br>
